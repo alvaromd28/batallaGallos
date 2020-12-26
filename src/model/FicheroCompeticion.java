@@ -7,16 +7,11 @@ public class FicheroCompeticion{
         Nombre = nombre;
     }
 
-    public void guardarCompeti(){
-
+    public String getNombre() {
+        return Nombre;
     }
-    public void guardarRapero(){
 
-    }
-    public void guardarPais(){
-
-    }
-    public void comprobacion(){
-
+    public void setNombre(String nombre) {
+        Nombre = nombre;
     }
 }

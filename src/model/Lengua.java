@@ -8,4 +8,20 @@ public class Lengua {
         IdiomaIngles = idiomaIngles;
         IiomaNativoi = iiomaNativoi;
     }
+
+    public String getIdiomaIngles() {
+        return IdiomaIngles;
+    }
+
+    public void setIdiomaIngles(String idiomaIngles) {
+        IdiomaIngles = idiomaIngles;
+    }
+
+    public String getIiomaNativoi() {
+        return IiomaNativoi;
+    }
+
+    public void setIiomaNativoi(String iiomaNativoi) {
+        IiomaNativoi = iiomaNativoi;
+    }
 }

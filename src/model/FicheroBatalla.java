@@ -7,13 +7,11 @@ public class FicheroBatalla{
         Nombre = nombre;
     }
 
-    public void guardarTema(){
-
+    public String getNombre() {
+        return Nombre;
     }
-    public void guardarEstrofa(){
 
-    }
-    public void comprobacion(){
-
+    public void setNombre(String nombre) {
+        Nombre = nombre;
     }
 }
